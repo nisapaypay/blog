@@ -1,5 +1,5 @@
 /*****************************************
-reset.css
+NISA RAHMAWATI : reset.css
 ******************************************/
 * {
 -moz-box-sizing: border-box;
@@ -60,11 +60,6 @@ background-image: url('https://cdn.rawgit.com/paypay21/blog/master/image/bg.jpg'
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-@media(max-width:767px){
-	body{
-		background-position: 50%;
-	}
 }
 #loading{
 	background-color: #333;
@@ -2319,3 +2314,12 @@ Responsive styles
 Hiding Header Date and Feed Links
 ******************************************/
 h2.date-header,span.blog-admin{display:none!important;}
+.search-stay input{
+    width: 80%;
+}
+.search-stay button{
+	padding: 10px 15px;
+	background: #525252;
+	border: 1px solid #525252;
+	color: #fff;
+}
